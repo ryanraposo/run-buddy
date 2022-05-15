@@ -23,8 +23,10 @@ header h1 {
   font-weight: bold;
   font-size: 36px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 0;
 }
+
 header a {
   text-decoration: none;
   color: #fce138;
@@ -46,6 +48,7 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -100,13 +103,16 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
-  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(252, 225, 56, 0.8);
   color: #024e76;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
   width: 40%;
   margin: 3.5%;
 }
@@ -121,6 +127,7 @@ section {
 
 .form-input {
   border: 1px solid #024e76;
+  border-radius: 10px;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
@@ -137,6 +144,7 @@ section {
   color: #fce138;
   background-color: #024e76;
   border: none;
+  border-radius: 10px;
   padding: 10px 20px;
   font-size: 16px;
 }
@@ -314,6 +322,7 @@ section {
 
 .contact-form input, .contact-form textarea {
   border: 1px solid #024e76;
+  border-radius: 10px;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
@@ -326,6 +335,7 @@ section {
 .contact-form button {
   width: 100%;
   border: none;
+  border-radius: 10px;
   background: #fce138;
   color: #024e76;
   text-align: center;
