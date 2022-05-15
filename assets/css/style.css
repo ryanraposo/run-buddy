@@ -17,6 +17,14 @@ header {
   flex-wrap: wrap;
   padding: 20px 35px;
   background-color: #39a6b2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 header h1 {
@@ -88,6 +96,8 @@ section {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 .hero-cta {
@@ -355,6 +365,7 @@ section {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
